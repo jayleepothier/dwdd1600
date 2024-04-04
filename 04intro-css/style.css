@@ -1,0 +1,124 @@
+body {
+ 
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+}
+/*Header stuff here*/
+header{
+    background-color:#f2f0de;
+    padding: 1rem 2%; 
+}
+header h1{
+    margin: 0;
+    color: #081f5c;
+    background-color:#fff9f0;
+}
+header p{
+    margin: 0;
+    color: #7096d1;
+    letter-spacing: .8px;
+    background-color: #fff9f0;
+
+    
+}
+
+/* nav stuff goes here*/
+nav {
+    background-color: #d0e3ff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    Margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration:none;
+    color: #081f5c;
+    font-weight: 500;
+    display: block;
+    padding: .80rem 2rem
+}
+nav li.active a {
+    background-color:#024873;
+        color: #edf1f6;
+}
+nav a:hover {
+    color:#fff;
+    
+}
+
+/* stuff for the main*/
+main{
+    padding: 1rem 2vw;
+}
+main h1{
+    color: #7096d1;
+}
+main h2{
+    color: #081f5c;
+    margin-bottom: .2rem;
+}
+main p{
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+    font-weight: 400
+    
+}
+main ol{
+    padding: .5rem 3vw;
+    background-color:#f7f2eb
+}
+
+main dl dt{
+    color: #7096d1;
+    font-weight: 700
+        ;
+    
+     
+}
+
+main dl dt{
+    color: #024873;
+    font-size: .9rem;
+}
+main ul{
+    list-style-type: circle
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #edf1f6;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #081f5c;
+    border-radius: 5px;
+}
+
+main a {
+    color: #081f5c
+}
+main a:hover {
+    color: #7096d1
+}
+
+/** footer stuff here*/
+
+footer{
+    background-color: #f7f2eb;
+    text-align: center;
+    color: #081f5c;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #081f5c;
+}
