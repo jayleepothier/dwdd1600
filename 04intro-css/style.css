@@ -1,15 +1,14 @@
 body {
  
   font-family: "Noto Serif", serif;
-  font-weight: 500;
+  font-weight:  500;
     font-size: 16px;
     margin: 0;
 }
-}
 /*Header stuff here*/
 header{
-    background-color:#f2f0de;
-    padding: 50px
+    background-color:#fff9f0;
+    padding: 1rem 2%;  
 }
 header h1{
     margin: 0;
